@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <script>
+    let chuoi = "<table border='1' style = 'border-collapse: collapse;'>"
+    for ( let i = 1; i<=10; i++){
+      chuoi +=  "<tr>";
+      for ( let j = 1; j <= 10; j++){
+        chuoi +=   "<td>"+ (i * j) +"</td>";
+      }
+      chuoi += "</tr>";
+    }
+    chuoi += '</table>';
+    document.write(chuoi);
+  </script>
+</body>
+</html>
